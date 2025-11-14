@@ -266,7 +266,7 @@
         },
         {
           "comment": "Shell-formatted raw strings",
-          "begin": "(?x)\n( (/\\*) \\s*\n(?i:sh|bash|shell|shellscript)\n\\s* (\\*/) )\n\\s* (\\`)\n",
+          "begin": "(?x)\n( (/\\*) \\s*\n(?i:sh|bash|zsh|fish|shell|shellscript)\n\\s* (\\*/) )\n\\s* (\\`)\n",
           "beginCaptures": {
             "1": {
               "name": "comment.block.go"

@@ -531,5 +531,8 @@
       }
     ],
     "snippets": []
+  },
+  "dependencies": {
+    "vsce": "^2.15.0"
   }
 }

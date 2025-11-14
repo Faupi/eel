@@ -350,7 +350,7 @@
         },
         {
           "comment": "Shell formatted template strings",
-          "begin": "(?x)\n(/\\*(?i:sh|bash|shell|shellscript)\\*/)\n\\s*\n([_\\$[:alpha:]][_\\$[:alnum:]]*)?\n(\\`)",
+          "begin": "(?x)\n(/\\*(?i:sh|bash|zsh|fish|shell|shellscript)\\*/)\n\\s*\n([_\\$[:alpha:]][_\\$[:alnum:]]*)?\n(\\`)",
           "contentName": "meta.embedded.block.shellscript.typescript source.shell",
           "end": "`",
           "beginCaptures": {
@@ -1422,7 +1422,7 @@
         },
         {
           "comment": "Shell formatted template strings",
-          "begin": "(?x)\n(?i:sh|bash|shell|shellscript)\n(\\`)",
+          "begin": "(?x)\n(?i:sh|bash|zsh|fish|shell|shellscript)\n(\\`)",
           "contentName": "meta.embedded.block.shellscript.typescript source.shell",
           "beginCaptures": {
             "1": {

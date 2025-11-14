@@ -330,7 +330,7 @@
         {
           "comment": "Shell-formatted block scalar strings",
           "name": "string.quoted.multi.embedded.yaml",
-          "begin": "(?x)\n(?:(\\|)|(>)) ([1-9])? ([-+])? \\s* \n( \\# (?i:sh|bash|shell|shellscript) ) \\b \\s* \\n?",
+          "begin": "(?x)\n(?:(\\|)|(>)) ([1-9])? ([-+])? \\s* \n( \\# (?i:sh|bash|zsh|fish|shell|shellscript) ) \\b \\s* \\n?",
           "beginCaptures": {
             "1": {
               "name": "keyword.control.flow.block-scalar.literal.yaml"

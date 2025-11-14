@@ -293,7 +293,7 @@
         },
         {
           "comment": "Shell-formatted raw strings",
-          "begin": "(?x)\n\\b \n( (?:u|U|L|u8)? R ) \" \n( (?i:sh|bash|shell|shellscript) \\b [^\\(]* ) \n\\(",
+          "begin": "(?x)\n\\b \n( (?:u|U|L|u8)? R ) \" \n( (?i:sh|bash|zsh|fish|shell|shellscript) \\b [^\\(]* ) \n\\(",
           "end": "\\)(\\2)\"",
           "contentName": "meta.embedded.block.shellscript.cpp source.shell",
           "patterns": [

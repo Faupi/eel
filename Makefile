@@ -11,7 +11,7 @@ fix:
 	cd utilities ; eslint --fix .
 
 setup:
-	sudo npm install -g @vscode/vsce
+	npm install
 	cd utilities ; npm install
 
 examples:

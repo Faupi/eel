@@ -215,7 +215,7 @@
         {
           "comment": "Shell-formatted triple-quoted strings",
           "name": "string.quoted.multi.embedded.python",
-          "begin": "(?x)\n( (?i:u|r|f|rf|fr|) )\n('''|\"\"\")\n(?= (?i:\\#sh|\\#bash|\\#shell|\\#!/bin/sh|\\#!/bin/bash|\\#!/usr/bin/env/sbash) \\b )",
+          "begin": "(?x)\n( (?i:u|r|f|rf|fr|) )\n('''|\"\"\")\n(?= (?i:\\#sh|\\#bash|\\#zsh|\\#fish|\\#shell|\\#!/bin/sh|\\#!/bin/bash|\\#!/bin/zsh|\\#!/bin/fish|\\#!/usr/bin/env/sbash|\\#!/usr/bin/env/szsh|\\#!/usr/bin/env/sfish) \\b )",
           "end": "(\\2)",
           "contentName": "meta.embedded.block.shellscript.python source.shell",
           "patterns": [
